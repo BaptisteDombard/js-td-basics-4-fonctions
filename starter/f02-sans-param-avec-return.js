@@ -46,12 +46,15 @@ EXERCICE :
 */
 
 // 1°) Déclarer la fonction
-
+function direBonjour(){
+    return "Bonjour !";
+}
 
 
 // 2°) Exécuter la fonction
-
+direBonjour();
 
 
 // 3°) Valeur de retour de cette fonction
-
+let Result = direBonjour();
+console.log(Result);

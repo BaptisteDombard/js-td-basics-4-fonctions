@@ -25,6 +25,23 @@ Créez deux fonctions :
 	- affiche dans la console "Dans calcule2 : resultat2 = " 
 Exécutez les deux fonctions
 */
+function calcule1(){
+    const resultat1 = 2+3;
+    console.log(`Dans calcule1 : resultat1 = ${resultat1}`);
+    return resultat1;
+}
 
+function calcule2(iStart){
+    const resultat2 = iStart * 2;
+    console.log(`Dans calcule2 : resultat2 = ${resultat2}`);
+    return resultat2;
+}
+/*function calcule2(){
+    const resultat2 = calcule1() * 2;
+    console.log(`Dans calcule2 : resultat2 = ${resultat2}`);
+    return resultat2;
+}*/
 
+const iResultat1 = calcule1();
+console.log(calcule2(iResultat1));
 
