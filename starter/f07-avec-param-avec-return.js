@@ -13,6 +13,10 @@
    a) "Baptiste"
    b) "Sophie"
 */
+function direBonjour(prenom){
+    let sMessage = `Bonjour ${prenom}`;
+    return sMessage
+}
 
 
 
