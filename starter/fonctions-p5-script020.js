@@ -9,8 +9,14 @@ Déclarer la fonction calculateAge qui prend le paramètre birthYear
 Cette fonction retourne l'âge de la personne
 en calculant l'année courante moins son année de naissance
 */
+/*
+function calculateAge(birthYear) {
+    let Age =  - birthYear;
 
+}
 
+console.log(calculateAge(1998));
+*/
 
 /* 
 Utiliser la fonction qu'on vient de créer pour calculer

@@ -17,10 +17,10 @@
 - Déclarer la fonction ci-dessus en utilisant la syntaxe "fat arrow function"
 - L'utiliser pour saluer Thomas dans la console
 */
-const bonjour = [
-    "prenom"
-]
-
+const bonjour = (prenom) =>{
+    return `Bonjour, ${prenom} !`
+}
+console.log(bonjour("Thomas"));
 
 
 

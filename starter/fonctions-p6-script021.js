@@ -17,3 +17,21 @@ pour différents cas de job :
     - Mark (retired)
 */
 
+const whatDoYouDo = function (job,firstname){
+    switch (job) {
+        case "teacher" :
+            console.log(`${firstname} teaches kids how to code`)
+        break
+        case "driver" :
+            console.log(`${firstname} drives a cab in Lisbon`)
+        break
+        case "designer" :
+            console.log(`${firstname} designs beautiful websites`)
+        break
+        default:
+            console.log(`${firstname} does something else`)
+    }
+}
+whatDoYouDo("teacher","John");
+whatDoYouDo("designer","Jane");
+whatDoYouDo("retired","Mark");

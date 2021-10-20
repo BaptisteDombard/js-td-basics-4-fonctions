@@ -12,7 +12,9 @@ FONCTIONS - PRÉPA 3 : Une première calculatrice
 Aide : votre fonction s'exécute avec le pattern suivant : calculer(nb1, "+", nb2)
 */
 
+function calculer(nb1,nb2){
 
+}
 
 
 
