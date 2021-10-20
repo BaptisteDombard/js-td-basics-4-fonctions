@@ -15,11 +15,16 @@ FONCTIONS - PRÉPA 1 : Le carré d'un nombre
 */
 
 // Déclarer carre1 pour qu'elle retroune le carré de x
-
+function carre1(nombre){
+    return nombre * nombre;
+}
 
 
 
 // Calculer le carré de 0, 2 et 5 en utilisant carre1
+console.log(carre1(0));
+console.log(carre1(2));
+console.log(carre1(5));
 
 
 
