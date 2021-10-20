@@ -17,6 +17,9 @@
 - Déclarer la fonction ci-dessus en utilisant la syntaxe "fat arrow function"
 - L'utiliser pour saluer Thomas dans la console
 */
+const bonjour = [
+    "prenom"
+]
 
 
 

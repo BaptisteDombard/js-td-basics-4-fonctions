@@ -13,8 +13,10 @@
   la fonction direBonjour qui affiche "Bonjour !" dans la console
 - Exécuter la fonction
 */
-
-
+const direBonjour = function (){
+    console.log("Bonjour !")
+}
+direBonjour();
 
 
 
