@@ -14,7 +14,11 @@ N.B. Faites deux versions :
 
 // synatxe classique
 function calcMin(nombre1,nombre2){
-    return Math.min(nombre1,nombre2);
+    if (nombre1<=nombre2){
+        return nombre1;
+    }else {
+        return nombre2;
+    }
 }
 
 console.log(calcMin(4.5,5));
@@ -23,16 +27,20 @@ console.log(calcMin(1,1));
 
 // arrow function
 const calcMine = (nombre1,nombre2) =>{
-    return Math.min(nombre1,nombre2)
+    if (nombre1<=nombre2){
+        return nombre1;
+    }else {
+        return nombre2;
+    }
 }
 console.log(calcMine(4.5,5));
 console.log(calcMine(19,9));
 console.log(calcMine(1,1));
 
 // arrow function écriture encore plus concise
-const CalcMin = (nombre1,nombre2) => Math.min(nombre1,nombre2);
+/*const CalcMin = (nombre1,nombre2) =>
 
 console.log(CalcMin(4.5,5));
 console.log(CalcMin(19,9));
-console.log(CalcMin(1,1));
+console.log(CalcMin(1,1));*/
 

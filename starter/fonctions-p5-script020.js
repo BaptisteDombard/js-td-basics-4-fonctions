@@ -15,9 +15,7 @@ function calculateAge(birthYear) {
     return Age;
 }
 
-console.log(calculateAge(1998));
-console.log(calculateAge(1948));
-console.log(calculateAge(1969));
+
 
 /* 
 Utiliser la fonction qu'on vient de créer pour calculer
@@ -50,5 +48,19 @@ Utiliser ensuite la fonction pour calculer dans cobien d'années seront pensionn
 */
 
 
+function giveYearsUntilRetirement(year, firstName){
+    let iRetirement = 65 - calculateAge(year, firstName);
+    if (iRetirement >= 0){
+        console.log(`${firstName} prendre sa pension dans ${iRetirement} ans.`);
+    } else {
+        console.log(`${firstName} est déjà pensionné.`);
+    }
+    return iRetirement;
+}
+console.log(calculateAge(1990));
+console.log(calculateAge(1948));
+console.log(calculateAge(1969));
 
-
+giveYearsUntilRetirement(1990, "John");
+giveYearsUntilRetirement(1948, "Mike");
+giveYearsUntilRetirement(1969, "Jane");
